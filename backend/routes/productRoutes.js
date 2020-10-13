@@ -3,7 +3,7 @@ import asyncHandler from 'express-async-handler'
 import Product from '../models/productModel.js'
 const router = express.Router()
 
-//@desc Fetch all  routes
+//@desc Fetch all product
 //@route GET /api/products
 //@access Public
 router.get('/', asyncHandler(async (req, res) => {
